@@ -1238,12 +1238,12 @@ main .main__info .main__menu .main__search .settings-block .filters .filters__li
   height: 3rem;
 }
 
-#menu-btn .ico {
+/*#menu-btn .ico {
   width: 3rem;
   height: 3rem;
-}
+}*/
 
-#menu {
+/*#menu {
   width: 50%;
   height: 100%;
   position: fixed;
@@ -1256,15 +1256,15 @@ main .main__info .main__menu .main__search .settings-block .filters .filters__li
   -webkit-transition: .5s ease;
   -o-transition: .5s ease;
   transition: .5s ease;
-}
+}*/
 
-#menu.menu-active {
+/*#menu.menu-active {
   left: 0;
-}
+}*/
 
-#menu.menu-active nav {
+/*#menu.menu-active nav {
   display: block;
-}
+}*/
 
 #menu #close-menu-btn {
   position: absolute;
@@ -1278,18 +1278,18 @@ main .main__info .main__menu .main__search .settings-block .filters .filters__li
   opacity: 1;
 }
 
-#menu nav {
+/*#menu nav {
   display: none;
   margin: 4rem auto;
   width: 100%;
   background-color: transparent;
-}
+}*/
 
-#menu nav .horizontal-line {
+/*#menu nav .horizontal-line {
   max-width: 25rem;
-}
+}*/
 
-#menu nav .username {
+/*#menu nav .username {
   color: #fff;
   font-size: 2rem;
 }
@@ -1310,7 +1310,7 @@ main .main__info .main__menu .main__search .settings-block .filters .filters__li
   left: 2rem;
   bottom: 5rem;
   font-size: 1.2rem;
-}
+}*/
 
 .auth-header {
   background-color: transparent;
@@ -2332,11 +2332,11 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   visibility: visible;
 }
 
-@media screen and (min-width: 2560px) {
+/*@media screen and (min-width: 2560px) {
   html {
     font-size: 17.5px;
   }
-}
+}*/
 
 @media screen and (max-width: 1920px) {
   .goods_adding_flow {
@@ -2403,12 +2403,12 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   main .goods-adding-table {
     margin: 0 -2rem;
   }
-  nav {
+  /*nav {
     width: 20rem;
-  }
-  nav .nav__footer {
+  }*/
+  /*nav .nav__footer {
     width: 14rem;
-  }
+  }*/
   main.goods .goods__block .goods__menu .goods__search input {
     width: -webkit-calc(100% - 2rem);
     width: calc(100% - 2rem);
@@ -2429,7 +2429,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   main.goods {
     margin-top: 4rem;
   }
-  #nav {
+  /*#nav {
     position: absolute;
     left: -20rem;
   }
@@ -2438,7 +2438,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   }
   #menu-btn {
     display: block;
-  }
+  }*/
 /*  main .sidebar {
     width: 100%;
   }*/

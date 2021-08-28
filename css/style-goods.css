@@ -2253,11 +2253,11 @@ main.goods-adding .goods-brand-download .goods-download__block img {
   visibility: visible;
 }
 
-@media screen and (min-width: 2560px) {
+/*@media screen and (min-width: 2560px) {
   html {
     font-size: 17.5px;
   }
-}
+}*/
 
 @media screen and (max-width: 1920px) {
   .goods_flow {
@@ -2266,9 +2266,9 @@ main.goods-adding .goods-brand-download .goods-download__block img {
 }
 
 @media screen and (max-width: 1600px) {
-  nav {
+  /*nav {
     width: 20rem;
-  }
+  }*/
 
   main .main__table tbody tr td {
     padding: .25rem .5rem;
@@ -2302,9 +2302,9 @@ main.goods-adding .goods-brand-download .goods-download__block img {
 }
 
 @media screen and (max-width: 1024px) {
-  html {
+  /*html {
     font-size: 12px;
-  }
+  }*/
   main.goods .goods__block .goods__table table th,
   main.goods .goods__block .goods__table table td {
     font-size: .9rem;
@@ -2316,12 +2316,7 @@ main.goods-adding .goods-brand-download .goods-download__block img {
   main .goods-adding-table {
     margin: 0 -2rem;
   }
-  nav {
-    width: 20rem;
-  }
-  nav .nav__footer {
-    width: 14rem;
-  }
+
   main.goods .goods__block .goods__menu .goods__search input {
     width: -webkit-calc(100% - 2rem);
     width: calc(100% - 2rem);
@@ -2338,16 +2333,9 @@ main.goods-adding .goods-brand-download .goods-download__block img {
   main.goods {
     margin-top: 4rem;
   }
-  #nav {
-    position: absolute;
-    left: -20rem;
-  }
-  #nav .nav__footer {
-    left: -20rem;
-  }
-  #menu-btn {
-    display: block;
-  }
+  
+  
+  
   main .sidebar.on-modal-sidebar {
     left: 0;
   }
@@ -2359,16 +2347,6 @@ main.goods-adding .goods-brand-download .goods-download__block img {
 @media screen and (max-width: 768px) {
 
 
-  #nav {
-    position: absolute;
-    left: -20rem;
-  }
-  #nav .nav__footer {
-    left: -20rem;
-  }
-  #menu-btn {
-    display: block;
-  }
   
   main .sidebar.on-modal-sidebar {
     left: 0;
@@ -2429,12 +2407,6 @@ main.goods-adding .goods-brand-download .goods-download__block img {
 }
 
 @media screen and (max-width: 620px) {
-  #menu nav .nav__menu .nav__li a {
-    font-size: 1.7rem;
-  }
-  #menu nav .nav__menu .nav__li .nav__submenu a {
-    font-size: 1.2rem;
-  }
   main.goods .goods__block .goods__menu {
     display: -ms-grid;
     display: grid;

@@ -1242,7 +1242,7 @@ main .main__info .main__menu .main__search .settings-block .filters .filters__li
   height: 3rem;
 }
 
-#menu-btn .ico {
+/*#menu-btn .ico {
   width: 3rem;
   height: 3rem;
 }
@@ -1300,13 +1300,13 @@ main .main__info .main__menu .main__search .settings-block .filters .filters__li
 
 #menu nav .nav__li-name {
   font-size: 2rem;
-}
+}*/
 
-#menu nav .nav__submenu-li {
+/*#menu nav .nav__submenu-li {
   font-size: 1.5rem;
 }
-
-#menu nav .nav__footer {
+*/
+/*#menu nav .nav__footer {
   width: -webkit-calc(100% - 2rem);
   width: calc(100% - 2rem);
   max-width: 25rem;
@@ -1314,7 +1314,7 @@ main .main__info .main__menu .main__search .settings-block .filters .filters__li
   left: 2rem;
   bottom: 5rem;
   font-size: 1.2rem;
-}
+}*/
 
 .auth-header {
   background-color: transparent;
@@ -2427,9 +2427,9 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 @media screen and (max-width: 1024px) {
-  html {
+/*  html {
     font-size: 12px;
-  }
+  }*/
   main.goods .goods__block .goods__table table th,
   main.goods .goods__block .goods__table table td {
     font-size: .9rem;
@@ -2445,12 +2445,12 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   main .goods-adding-table {
     margin: 0 -2rem;
   }
-  nav {
+/*  nav {
     width: 20rem;
   }
   nav .nav__footer {
     width: 14rem;
-  }
+  }*/
   main.goods .goods__block .goods__menu .goods__search input {
     width: -webkit-calc(100% - 2rem);
     width: calc(100% - 2rem);
@@ -2471,13 +2471,13 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   main.goods {
     margin-top: 4rem;
   }
-  #nav {
+/*  #nav {
     position: absolute;
     left: -20rem;
   }
   #nav .nav__footer {
     left: -20rem;
-  }
+  }*/
   #menu-btn {
     display: block;
   }
@@ -2561,12 +2561,12 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 @media screen and (max-width: 620px) {
-  #menu nav .nav__menu .nav__li a {
+/*  #menu nav .nav__menu .nav__li a {
     font-size: 1.7rem;
   }
   #menu nav .nav__menu .nav__li .nav__submenu a {
     font-size: 1.2rem;
-  }
+  }*/
   main.goods .goods__block .goods__menu {
     display: -ms-grid;
     display: grid;
