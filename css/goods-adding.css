@@ -39,7 +39,7 @@ main .main__header {
 }
 
 main .main__header .main__name {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 main .main__header .main__btns {
@@ -70,13 +70,13 @@ main .main__info .supplier {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   width: 100%;
 }
 
-main .main__info .supplier .supplier__text {
+ .main__info .supplier .supplier__text {
   width: 30%;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 main .main__info .supplier .supplier__name {
@@ -98,13 +98,13 @@ main .main__info .supplier .supplier__name {
 }
 
 main .main__info .supplier .supplier__name span {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 main .main__info .supplier .supplier__name span span {
   color: #999997;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 main .main__info .supplier .supplier__name .supplier__add-btn img {
@@ -158,7 +158,7 @@ main .main__table-block {
 }
 
 main .main__table {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   border-collapse: collapse;
   overflow-x: auto;
   white-space: nowrap;
@@ -174,7 +174,7 @@ main .main__table thead th {
   padding: 1rem 10px;
   text-align: left;
   font-weight: 400;
-  border-bottom: 1rem solid white;
+  border-bottom: 10px solid white;
   font-size: 13px;
 }
 
@@ -210,8 +210,8 @@ main .main__table tbody tr td {
 
 main .main__table tbody tr td.dark-yellow {
   background-color: #e0d5b9;
-  -webkit-box-shadow: inset 1rem 0 0px 0rem #fcefce;
-          box-shadow: inset 1rem 0 0px 0rem #fcefce;
+  -webkit-box-shadow: inset 10px 0 0px 0rem #fcefce;
+          box-shadow: inset 10px 0 0px 0rem #fcefce;
   padding-right: 0;
   padding-left: 2rem;
 }
@@ -261,12 +261,12 @@ main .horizontal-line {
 
 .main__download img {
   margin-right: 2rem;
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
 }
 
  .main__download span {
-  font-size: 2rem;
+  font-size: 1.2rem;
   -webkit-transition: .2s ease-in;
   -o-transition: .2s ease-in;
   transition: .2s ease-in;
@@ -277,7 +277,7 @@ main .horizontal-line {
 }
 
 .main__save-btn {
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: #fdf3da;
   border: 1px solid black;
   -webkit-border-radius: 5px;
@@ -350,6 +350,7 @@ main .horizontal-line {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+          font-size: 20px;
 }
 
  .sidebar-f .sidebar__subheader {
@@ -382,7 +383,7 @@ main .horizontal-line {
 
  .sidebar-f .sidebar__content p {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -417,7 +418,7 @@ main .horizontal-line {
 }
 
  .sidebar-f .sidebar__content .changelist .changelist__li .changelist__change {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -469,14 +470,14 @@ main .horizontal-line {
 
  .sidebar-f .sidebar__content .form .form__input input[type='text'] {
   background-color: #fcefce;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
   padding: 1rem;
   width: 60%;
 }
 
  .sidebar-f .sidebar__content .form .form__table {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
  .sidebar-f .sidebar__content .form .form__table .form__table-row {
@@ -661,7 +662,7 @@ main .horizontal-line {
 }
 
  .sidebar-f .sidebar__block .sidebar__subblock.active .sidebar__header {
-  font-size: 1.7rem;
+  font-size: 1rem;
 }
 
  .sidebar-f .sidebar__block .sidebar__subblock.active:nth-child(2) {
@@ -816,7 +817,7 @@ main .horizontal-line {
   resize: none;
   width: 100%;
   background-color: #fcefce;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
   padding: 1rem;
 }
@@ -827,7 +828,7 @@ main .horizontal-line {
 }
 
 .input-block textarea {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .input-block .operator-menu-ico {
@@ -836,7 +837,7 @@ main .horizontal-line {
 
 .input-block .input-block__text {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
 }
@@ -964,7 +965,7 @@ main .horizontal-line {
 .illustration .illustration__text {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
-  font-size: 2rem;
+  font-size: 1.5rem;
   bottom: 2rem;
   right: -1rem;
   padding: 2.5rem 2rem;
@@ -1138,13 +1139,13 @@ main .main__info .main__menu .main__search .settings-block .filters .filters__li
 }
 
 .desc .desc__header {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
   display: block;
 }
 
 .desc .desc__subheader {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   display: block;
 }
@@ -2104,7 +2105,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 
 .desc-block .desc-block__header span {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .desc-block .desc-block__header img {
@@ -2261,7 +2262,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
   padding: 1rem;
 }

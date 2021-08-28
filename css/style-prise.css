@@ -36,7 +36,7 @@
 }
 
 main .main__header .main__name {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 main .main__header .main__btns {
@@ -257,12 +257,12 @@ main .horizontal-line {
 
 .main__download img {
   margin-right: 2rem;
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
 }
 
  .main__download span {
-  font-size: 2rem;
+  font-size: 1.2rem;
   -webkit-transition: .2s ease-in;
   -o-transition: .2s ease-in;
   transition: .2s ease-in;
@@ -273,7 +273,7 @@ main .horizontal-line {
 }
 
 .main__save-btn {
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: #fdf3da;
   border: 1px solid black;
   -webkit-border-radius: 5px;
@@ -1987,7 +1987,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 .goods-download .goods-download__block label {
-  font-size: 2rem;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 
