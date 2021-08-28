@@ -18,10 +18,10 @@
 #goods-search{
   border:  none;
 }
-input[type="file"] {
+.goods_flow input[type="file"] {
   display: none;
 }
-label {
+.goods_flow label {
   font-size: 2rem;
   cursor: pointer;
   white-space: nowrap;
