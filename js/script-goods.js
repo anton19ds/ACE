@@ -235,18 +235,18 @@ btns.forEach((btn, i) => {
 
 // MOBILE MENU
 
-let menuBtn = document.getElementById("menu-btn");
-let closeMenuBtn = document.getElementById("close-menu-btn");
-let menu = document.getElementById("menu");
+// let menuBtn = document.getElementById("menu-btn");
+// let closeMenuBtn = document.getElementById("close-menu-btn");
+// let menu = document.getElementById("menu");
 
-menuBtn.addEventListener("click", function () {
-  menu.classList.toggle("menu-active");
-  menuBtn.style.display = "none";
-});
+// menuBtn.addEventListener("click", function () {
+//   menu.classList.toggle("menu-active");
+//   menuBtn.style.display = "none";
+// });
 
-closeMenuBtn.addEventListener("click", function () {
-  menu.classList.remove("menu-active");
-  menuBtn.style.display = "block";
-});
+// closeMenuBtn.addEventListener("click", function () {
+//   menu.classList.remove("menu-active");
+//   menuBtn.style.display = "block";
+// });
   
  

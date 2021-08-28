@@ -1,43 +1,30 @@
 @charset "UTF-8";
-*,
-::before,
-::after {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-decoration: none;
-  outline: none;
-  list-style: none;
-  font-family: Arial;
-  border: 0;
-  scroll-behavior: smooth;
-  font-family: 'Rubik', sans-serif;
-  color: #424242;
+
+.goods_adding_flow input{
+  border:  none;
 }
 
-html {
-  font-size: 13px;
+.goods_adding_flow a{
+  color:  inherit;
 }
 
-
-
-
-input[type="file"] {
+.goods_adding_flow input[type="file"] {
   display: none;
 }
 
-label {
+.goods_adding_flow label {
   font-size: 2rem;
   cursor: pointer;
   white-space: nowrap;
 }
 
 
+.sidebar-f input{
+  border: none;
+}
 
 
-
-main .main__header {
+.main__header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1727,7 +1714,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
       -ms-flex-align: center;
           align-items: center;
   background-color: #e3e3e3;
-  padding: 2rem 1rem;
+  padding: 15px 9px;
   font-weight: 500;
   height: 6rem;
   width: 100%;
@@ -1738,70 +1725,37 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 .goods-adding-table .t-header span {
-  font-size: 1.2rem;
+  font-size: 13px;
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-  /*
-            &:nth-child(1) {
-                width: 15rem;
-            }
-            &:nth-child(2) {
-                width: 17rem;
-            }
-            &:nth-child(3) {
-                width: 18rem;
-            }
-            &:nth-child(4) {
-                width: 18rem;
-            }
-            &:nth-child(5) {
-                width: 13rem;
-            }
-            &:nth-child(6) {
-                width: 13rem;
-            }
-            &:nth-child(7) {
-                width: 13rem;
-            }
-            &:last-child {
-                width: .4rem;
-            }
-            */
 }
 
 .goods-adding-table .t-header span:nth-child(1) {
-  width: 16rem;
+  width: 13%;
 }
 
 .goods-adding-table .t-header span:nth-child(2) {
-  width: 18rem;
+  width: 15%;
 }
-
 .goods-adding-table .t-header span:nth-child(3) {
-  width: 19rem;
+  width: 16%;
 }
-
 .goods-adding-table .t-header span:nth-child(4) {
-  width: 19rem;
+  width: 17%;
 }
-
 .goods-adding-table .t-header span:nth-child(5) {
-  width: 14rem;
+  width: 12%;
 }
-
 .goods-adding-table .t-header span:nth-child(6) {
-  width: 14rem;
+  width: 12%;
 }
-
 .goods-adding-table .t-header span:nth-child(7) {
-  width: 14rem;
+  width: 12%;
 }
-
 .goods-adding-table .t-header span:last-child {
-  width: 1rem;
+  width: 1%;
 }
-
 .goods-adding-table .t-body {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1814,7 +1768,6 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   height: 20rem;
   padding: .5rem 0;
 }
-
 .goods-adding-table .t-body .t-col {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1833,51 +1786,47 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 .5rem;
+  padding: 0 5px;
   height: 100%;
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
 }
-
 .goods-adding-table .t-body .t-col:first-child {
   padding-left: 0;
 }
-
 .goods-adding-table .t-body .t-col:last-child {
   padding-right: 0;
 }
-
 .goods-adding-table .t-body .t-col:nth-child(1) {
-  width: 16rem;
+  width: 13%;
 }
-
 .goods-adding-table .t-body .t-col:nth-child(2) {
-  width: 18rem;
+  width: 15%;
 }
 
 .goods-adding-table .t-body .t-col:nth-child(3) {
-  width: 19rem;
+  width: 16%;
 }
 
 .goods-adding-table .t-body .t-col:nth-child(4) {
-  width: 19rem;
+  width: 17%;
 }
 
 .goods-adding-table .t-body .t-col:nth-child(5) {
-  width: 14rem;
+  width: 12%;
 }
 
 .goods-adding-table .t-body .t-col:nth-child(6) {
-  width: 14rem;
+  width: 11%;
 }
 
 .goods-adding-table .t-body .t-col:nth-child(7) {
-  width: 14rem;
+  width: 12%;
 }
 
 .goods-adding-table .t-body .t-col:last-child {
-  width: 2.5rem;
+  width: 2.5%;
 }
 
 .goods-adding-table .t-body .t-col .t-item {
@@ -1916,7 +1865,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 .goods-adding-table .t-body .t-col .t-item label {
   cursor: pointer;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 14px;
 }
 
 .goods-adding-table .t-body .t-col .t-item:not(:last-child) {
@@ -2390,7 +2339,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 @media screen and (max-width: 1920px) {
-  html {
+  .goods_adding_flow {
     font-size: 13px;
   }
 }
@@ -2436,7 +2385,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 @media screen and (max-width: 1024px) {
-  html {
+  .goods_adding_flow {
     font-size: 12px;
   }
   main.goods .goods__block .goods__table table th,
@@ -2570,13 +2519,25 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 @media screen and (max-width: 620px) {
-  #menu nav .nav__menu .nav__li a {
-    font-size: 1.7rem;
+  .sidebar-f{
+    width: 100%;
   }
-  #menu nav .nav__menu .nav__li .nav__submenu a {
-    font-size: 1.2rem;
+  .sidebar-f.on-modal-sidebar{
+    left: 0;
   }
-  main.goods .goods__block .goods__menu {
+    .goods-adding-table .t-body,
+  .goods-adding-table .horizontal-line,
+  .goods-adding-table .t-header{
+    width: 1200px;
+  }
+  .goods_adding_flow{
+    font-size: 12px;
+  }
+  .goods-adding-table .t-body .t-col .t-item {
+    padding: 0 4px;
+}
+  
+   .goods__block .goods__menu {
     display: -ms-grid;
     display: grid;
         grid-template-areas: "header header" "add mid";
@@ -2587,7 +2548,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
         -ms-flex-align: center;
             align-items: center;
   }
-  main.goods .goods__block .goods__menu .goods__header {
+   .goods__block .goods__menu .goods__header {
     margin-bottom: 1rem;
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -2595,8 +2556,8 @@ main .goods__block .goods__table table.status-table tr td:last-child {
     grid-area: header;
     text-align: center;
   }
-  main.goods .goods__block .goods__menu .goods__search,
-  main.goods .goods__block .goods__menu .grid-menu-ico {
+   .goods__block .goods__menu .goods__search,
+   .goods__block .goods__menu .grid-menu-ico {
     margin: 0;
     -ms-grid-row: 2;
     -ms-grid-column: 2;
@@ -2604,7 +2565,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
     -ms-grid-column-align: end;
         justify-self: end;
   }
-  main.goods .goods__block .goods__menu a {
+  .goods__block .goods__menu a {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: add;
@@ -2612,10 +2573,6 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 @media screen and (max-width: 485px) {
-  #menu {
-    width: 100%;
-    left: -100%;
-  }
   main .sidebar .sidebar__block .sidebar__subblock .sidebar__header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2644,17 +2601,47 @@ main .goods__block .goods__table table.status-table tr td:last-child {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+    .main__download{
+    display: block;
+  }
+    .main__download img{
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media screen and (max-width: 425px) {
-  main {
-    padding: 2rem;
-    padding-top: 4rem;
+  .goods-adding-table .t-body,
+  .goods-adding-table .horizontal-line,
+  .goods-adding-table .t-header{
+    width: 1200px;
   }
+  .sidebar-f.on-modal-sidebar{
+    left: 0;
+  }
+
+  .sidebar-f{
+    width: 100%;
+    padding: 4rem 1rem ;
+  }
+  .main__download img{
+    width: 20px;
+    height: 20px;
+  }
+  .main__download{
+    display: block;
+  }
+  .main__download span{
+    font-size: 14px;
+  }
+  .goods-download .goods-download__block label{
+    font-size: 14px;
+  }
+  .goods-download .goods-download__block{
+    margin-top: 15px;
+  }
+  
   main .main__table-block {
-    margin: 0 -1rem;
-  }
-  main .goods-adding-table {
     margin: 0 -1rem;
   }
   main .main__header {

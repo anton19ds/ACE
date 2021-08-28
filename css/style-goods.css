@@ -1,5 +1,5 @@
 @charset "UTF-8";
-*,
+/**,
 ::before,
 ::after {
   margin: 0;
@@ -14,6 +14,9 @@
   scroll-behavior: smooth;
   font-family: 'Rubik', sans-serif;
   color: #424242;
+}*/
+#goods-search{
+  border:  none;
 }
 input[type="file"] {
   display: none;
@@ -143,7 +146,6 @@ label {
   margin: 2rem 0;
   border-collapse: collapse;
   overflow-x: auto;
-  white-space: nowrap;
   width: 100%;
 }
 .main__table thead {
@@ -1521,7 +1523,7 @@ main .goods__block .goods__table table {
 
 main .goods__block .goods__table table th,
 main .goods__block .goods__table table td {
-  font-size: .9rem;
+  font-size: 13px;
 }
 
 main .goods__block .goods__table table th {
@@ -2258,7 +2260,7 @@ main.goods-adding .goods-brand-download .goods-download__block img {
 }
 
 @media screen and (max-width: 1920px) {
-  html {
+  .goods_flow {
     font-size: 13px;
   }
 }
