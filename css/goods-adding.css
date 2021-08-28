@@ -1,39 +1,29 @@
 @charset "UTF-8";
-*,
-::before,
-::after {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-decoration: none;
-  outline: none;
-  list-style: none;
-  font-family: Arial;
-  border: 0;
-  scroll-behavior: smooth;
-  font-family: 'Rubik', sans-serif;
-  color: #424242;
-}
-
-html {
-  font-size: 13px;
-}
 
 
 
 
-input[type="file"] {
+.block-goods-adding input[type="file"] {
   display: none;
 }
 
-label {
+.block-goods-adding label {
   font-size: 2rem;
   cursor: pointer;
   white-space: nowrap;
 }
 
-
+.block-goods-adding{
+  color:  inherit;\
+  font-size: 14px;
+}
+.block-goods-adding a{
+  color:  inherit;
+}
+.sidebar-f input,
+.block-goods-adding input{
+  border: none;
+}
 
 
 
@@ -80,7 +70,7 @@ main .main__info .supplier {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 3rem;
+  margin-top: 2rem;
   width: 100%;
 }
 
@@ -181,10 +171,11 @@ main .main__table thead {
 }
 
 main .main__table thead th {
-  padding: 1rem;
+  padding: 1rem 10px;
   text-align: left;
   font-weight: 400;
   border-bottom: 1rem solid white;
+  font-size: 13px;
 }
 
 main .main__table tbody tr {
@@ -211,10 +202,10 @@ main .main__table tbody tr.light-yellow {
 }
 
 main .main__table tbody tr td {
-  padding: .5rem 1rem;
+  padding: .5rem 10px;
   text-align: left;
   height: 4rem;
-  font-size: .9rem;
+  font-size: 14px;
 }
 
 main .main__table tbody tr td.dark-yellow {
@@ -2383,17 +2374,17 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   visibility: visible;
 }
 
-@media screen and (min-width: 2560px) {
+/*@media screen and (min-width: 2560px) {
   html {
     font-size: 17.5px;
   }
-}
+}*/
 
-@media screen and (max-width: 1920px) {
+/*@media screen and (max-width: 1920px) {
   html {
     font-size: 13px;
   }
-}
+}*/
 
 @media screen and (max-width: 1600px) {
  /* nav {
