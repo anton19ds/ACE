@@ -37,6 +37,7 @@
 
 main .main__header .main__name {
   font-size: 1rem;
+  margin-left: 5rem;
 }
 
 main .main__header .main__btns {
@@ -48,6 +49,7 @@ main .main__header .main__btns {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 5rem;
 }
 
 main .main__header .main__btns .main__btn:not(:last-child) {
@@ -923,8 +925,8 @@ main .horizontal-line {
 }
 
 .ico {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
   opacity: .5;
   cursor: pointer;
 }
@@ -1716,7 +1718,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   background-color: #e3e3e3;
   padding: 15px 9px;
   font-weight: 500;
-  height: 6rem;
+  height: 5rem;
   width: 100%;
 }
 .main__save-btn{
@@ -1725,10 +1727,11 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 .goods-adding-table .t-header span {
-  font-size: 13px;
+  font-size: 14px;
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
+  font-weight: 700;
 }
 
 .goods-adding-table .t-header span:nth-child(1) {
@@ -1765,7 +1768,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 20rem;
+  height: 16rem;
   padding: .5rem 0;
 }
 .goods-adding-table .t-body .t-col {
@@ -1874,7 +1877,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 
 .goods-adding-table .t-body .t-col .t-item.bold {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .goods-adding-table .t-body .t-col .t-item.underline {
