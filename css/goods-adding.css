@@ -11,8 +11,9 @@
 }
 
 .block-goods-adding{
-  color:  inherit;\
+  color:  inherit;
   font-size: 14px;
+  
 }
 .block-goods-adding a{
   color:  inherit;
@@ -2385,6 +2386,9 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }*/
 
 @media screen and (max-width: 1600px) {
+  .block-goods-adding{
+  padding: 10px;
+}
  /* nav {
     width: 20rem;
   }*/
@@ -2409,11 +2413,11 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 @media screen and (max-width: 1390px) {
-  main.goods .goods__block .goods__menu .goods__search {
+   .goods__block .goods__menu .goods__search {
     width: 10rem;
     position: relative;
   }
-  main.goods .goods__block .goods__menu .goods__search img {
+   .goods__block .goods__menu .goods__search img {
     position: absolute;
     top: 0;
     right: 0;
@@ -2636,10 +2640,6 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 @media screen and (max-width: 425px) {
-  main {
-    padding: 2rem;
-    padding-top: 4rem;
-  }
   main .main__table-block {
     margin: 0 -1rem;
   }

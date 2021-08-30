@@ -2353,6 +2353,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   }
   .goods-adding-table{
     width: 1450px;
+    max-width: 100%;
   }
  /* nav {
     width: 20rem;
@@ -2378,11 +2379,11 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 @media screen and (max-width: 1390px) {
-  main.goods .goods__block .goods__menu .goods__search {
+   .goods__block .goods__menu .goods__search {
     width: 10rem;
     position: relative;
   }
-  main.goods .goods__block .goods__menu .goods__search img {
+   .goods__block .goods__menu .goods__search img {
     position: absolute;
     top: 0;
     right: 0;
