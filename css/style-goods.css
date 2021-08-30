@@ -16,7 +16,7 @@
   color: #424242;
 }*/
 .content__main{
-  padding: 0px 1rem 0 1rem !important;
+  padding: 0px !important;
 }
 #goods-search{
   border:  none;
@@ -1508,7 +1508,7 @@ main .goods__block .goods__menu .goods__search input {
 }
 
 main .goods__block .goods__header {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-top: 0;
 }
 
@@ -1526,7 +1526,7 @@ main .goods__block .goods__table table {
 
 main .goods__block .goods__table table th,
 main .goods__block .goods__table table td {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 main .goods__block .goods__table table th {
