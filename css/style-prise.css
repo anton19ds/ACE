@@ -2410,7 +2410,7 @@ main .goods__block .goods__table table.status-table tr td:last-child {
   .main__table-block {
   }
   main .goods-adding-table {
-    margin: 0 -2rem;
+    margin: 0 S;
   }
   /*nav {
     width: 20rem;
