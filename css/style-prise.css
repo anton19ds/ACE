@@ -2348,6 +2348,12 @@ main .goods__block .goods__table table.status-table tr td:last-child {
 }
 
 @media screen and (max-width: 1600px) {
+  .adding_wrap{
+    overflow-x: auto;
+  }
+  .goods-adding-table{
+    width: 1450px;
+  }
  /* nav {
     width: 20rem;
   }*/
